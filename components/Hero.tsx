@@ -24,7 +24,7 @@ export function Hero() {
             <CheckCircle2 size={16} />
             {clinic.area}
           </div>
-          <Image src="/logo-white.svg" alt="Clínica HE Performance" width={236} height={70} className="mb-8" />
+          <Image src="/he-logo-circle.png" alt="Clínica HE Performance" width={120} height={120} className="mb-8" priority />
           <h1 className="text-balance max-w-4xl text-5xl font-semibold leading-[1.02] text-ivory sm:text-6xl lg:text-7xl">
             {clinic.slogan}
           </h1>

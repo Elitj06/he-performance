@@ -8,7 +8,7 @@ export function Footer() {
     <footer className="border-t border-white/10 bg-[#050b14] py-12">
       <div className="section-shell flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
         <div>
-          <Image src="/logo-white.svg" alt="Clínica HE Performance" width={176} height={52} />
+          <Image src="/he-logo-circle.png" alt="Clínica HE Performance" width={48} height={48} />
           <p className="mt-4 max-w-md leading-7 text-mist">{clinic.slogan}. Saúde, metabologia e performance no Rio de Janeiro.</p>
         </div>
 

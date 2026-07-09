@@ -4,6 +4,8 @@
 
 - Next.js 15 App Router project created in `/root/projects/he-performance`.
 - Premium dark landing page implemented with HE Performance branding, responsive sections and PWA shell.
+- Official circular HE logo asset extracted from the provided screenshot and applied across navbar, hero, footer, favicon and PWA manifest.
+- Team portraits updated to local image assets and gallery diversified across training, nutrition, older adults, children and climbing.
 - Placeholder routes implemented for `/login`, `/app` and `/dashboard`.
 - Documentation added in `README.md` and `docs/API.md`.
 

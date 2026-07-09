@@ -22,7 +22,7 @@ export function Navbar() {
       <nav className="section-shell flex h-20 items-center justify-between gap-4">
         {/* SECTION: Brand */}
         <Link href="/" className="flex items-center gap-3" aria-label="HE Performance home">
-          <Image src="/logo-white.svg" alt="Clínica HE Performance" width={154} height={42} priority />
+          <Image src="/he-logo-circle.png" alt="Clínica HE Performance" width={40} height={40} priority />
         </Link>
 
         {/* SECTION: Desktop nav links */}

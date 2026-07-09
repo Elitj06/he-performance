@@ -119,15 +119,13 @@ export const team = [
     name: "Dr. João Branco",
     role: "Diretor técnico, CRM-RJ 75572-9",
     description: "+130 mil pacientes atendidos e 21 anos de carreira em saúde, metabologia e performance.",
-    image:
-      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=900&q=82",
+    image: "/team-dr-joao.jpg",
   },
   {
     name: "Renata Pigliasco Branco",
     role: "Nutricionista e sócia proprietária",
     description: "Nutrição clínica e esportiva para transformar estratégia em rotina sustentável.",
-    image:
-      "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=900&q=82",
+    image: "/team-renata.jpg",
   },
 ];
 
@@ -162,11 +160,19 @@ export const galleryImages = [
     alt: "Grupo diverso em treino funcional",
   },
   {
-    src: "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?auto=format&fit=crop&w=1400&q=82",
-    alt: "Atletas em movimento durante treino",
+    src: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1400&q=82",
+    alt: "Nutricionista avaliando paciente",
   },
   {
-    src: "https://images.unsplash.com/photo-1571019613576-2b22c76fd955?auto=format&fit=crop&w=1400&q=82",
-    alt: "Pessoa idosa ativa com acompanhamento de fitness",
+    src: "https://images.unsplash.com/photo-1559548331-f9cb98001426?auto=format&fit=crop&w=1400&q=82",
+    alt: "Casal de idosos ativo e saudável",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1400&q=82",
+    alt: "Criança em atividade física",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&w=1400&q=82",
+    alt: "Atleta de escalada em desempenho",
   },
 ];
