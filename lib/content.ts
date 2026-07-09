@@ -35,7 +35,6 @@ export const navItems = [
 ];
 
 export const stats = [
-  { value: "+130 mil", label: "pacientes atendidos" },
   { value: "21 anos", label: "de carreira médica" },
   { value: "360", label: "graus de avaliação" },
 ];
@@ -118,7 +117,7 @@ export const team = [
   {
     name: "Dr. João Branco",
     role: "Diretor técnico, CRM-RJ 75572-9",
-    description: "+130 mil pacientes atendidos e 21 anos de carreira em saúde, metabologia e performance.",
+    description: "21 anos de carreira em saúde, metabologia e performance.",
     image: "/team-dr-joao.jpg",
   },
   {

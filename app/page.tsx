@@ -3,6 +3,7 @@ import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import { HowItWorks } from "@/components/HowItWorks";
+import { Lifestyle } from "@/components/Lifestyle";
 import { Navbar } from "@/components/Navbar";
 import { Specialties } from "@/components/Specialties";
 import { Team } from "@/components/Team";
@@ -20,6 +21,7 @@ export default function Home() {
         <Specialties />
         <HowItWorks />
         <Technology />
+        <Lifestyle />
         <Team />
         <Testimonials />
         <Contact />

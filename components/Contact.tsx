@@ -1,9 +1,8 @@
-import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-import { clinic, contactItems, galleryImages } from "@/lib/content";
+import { clinic, contactItems } from "@/lib/content";
 import { Reveal } from "./Reveal";
 
-/** Renders contact channels, address, CTA and diverse lifestyle image strip. */
+/** Renders contact channels, address and CTA. */
 export function Contact() {
   return (
     <section id="contato" className="bg-obsidian py-24 sm:py-28">
@@ -44,13 +43,23 @@ export function Contact() {
             </a>
           </Reveal>
 
-          <Reveal className="grid grid-cols-2 gap-4" delay={0.1}>
-            {galleryImages.map((image, index) => (
-              <div key={image.src} className={`relative min-h-[220px] overflow-hidden rounded-[8px] border border-white/10 ${index % 2 ? "mt-8" : ""}`}>
-                <Image src={image.src} alt={image.alt} fill className="object-cover" sizes="(min-width: 1024px) 25vw, 50vw" />
-                <div className="absolute inset-0 bg-gradient-to-t from-obsidian/40 to-transparent" />
-              </div>
-            ))}
+          {/* SECTION: Decorative CTA panel */}
+          <Reveal className="glass-panel flex flex-col justify-center rounded-[8px] p-8 lg:p-12" delay={0.1}>
+            <p className="text-3xl font-semibold leading-tight text-ivory sm:text-4xl">
+              Sua melhor versão começa com uma conversa.
+            </p>
+            <p className="mt-5 text-lg leading-8 text-mist">
+              Avaliação completa, plano personalizado e acompanhamento contínuo — tudo em um só lugar.
+            </p>
+            <a
+              href={clinic.whatsappUrl}
+              className="mt-8 inline-flex h-14 w-fit items-center justify-center gap-2 rounded-full border border-gold/40 px-6 font-semibold text-champagne transition hover:bg-gold/10"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Agendar agora
+              <ArrowRight size={18} />
+            </a>
           </Reveal>
         </div>
       </div>

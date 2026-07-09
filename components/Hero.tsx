@@ -8,8 +8,8 @@ export function Hero() {
   return (
     <section className="relative isolate min-h-[92vh] overflow-hidden pt-24">
       <Image
-        src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=2400&q=86"
-        alt="Pessoa ativa treinando com foco em performance e saúde"
+        src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=2400&q=86"
+        alt="Pessoa em meditação — equilíbrio de corpo e espírito"
         fill
         priority
         className="object-cover"
