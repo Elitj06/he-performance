@@ -33,6 +33,22 @@ export const metadata: Metadata = {
     description: "Viva na sua melhor versão.",
     type: "website",
     locale: "pt_BR",
+    url: "/",
+    siteName: "Clínica HE Performance",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200&q=80",
+        width: 1200,
+        height: 630,
+        alt: "HE Performance — saúde, metabologia e performance",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Clínica HE Performance",
+    description: "Viva na sua melhor versão.",
+    images: ["https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200&q=80"],
   },
 };
 
