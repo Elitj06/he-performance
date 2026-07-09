@@ -16,8 +16,8 @@ export function About() {
       <div className="section-shell grid gap-12 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
         <Reveal className="relative min-h-[480px] overflow-hidden rounded-[8px] border border-white/10">
           <Image
-            src="https://images.unsplash.com/photo-1571019613576-2b22c76fd955?auto=format&fit=crop&w=1500&q=82"
-            alt="Paciente ativo em acompanhamento de performance"
+            src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1500&q=82"
+            alt="Pessoa em meditação — equilíbrio de corpo e espírito"
             fill
             className="object-cover"
             sizes="(min-width: 1024px) 45vw, 100vw"
