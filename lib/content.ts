@@ -175,4 +175,9 @@ export const galleryImages = [
     src: "https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&w=1400&q=82",
     alt: "Atleta de escalada em desempenho",
   },
+  // Homem de meia-idade — empresário saudável em roupas sociais
+  {
+    src: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1400&q=82",
+    alt: "Empresário saudável e confiante em roupas sociais",
+  },
 ];
