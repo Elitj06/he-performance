@@ -2,7 +2,7 @@ import Image from "next/image";
 import { galleryImages } from "@/lib/content";
 import { Reveal } from "./Reveal";
 
-/** Displays lifestyle imagery in an organic, distributed layout — not a uniform grid. */
+/** Displays lifestyle imagery in an organic, distributed layout. */
 export function Lifestyle() {
   return (
     <section id="estilo-de-vida" className="bg-obsidian py-24 sm:py-28">
@@ -10,7 +10,7 @@ export function Lifestyle() {
         <Reveal className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.22em] text-gold">Equilíbrio</p>
           <h2 className="mt-4 text-balance text-4xl font-semibold text-ivory sm:text-5xl">
-            Corpo e mente em harmonia.
+            Corpo e mente em equilíbrio.
           </h2>
           <p className="mt-5 text-lg leading-8 text-mist">
             Performance não é só intensidade. É encontrar o ponto exato entre movimento, descanso, nutrição e presença.

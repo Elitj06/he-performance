@@ -14,6 +14,7 @@
 - `npm run lint` passed.
 - `npm run typecheck` passed.
 - `npm run build` passed with Next.js 15.5.20.
+- 2026-07-09: removed the 130k patient stat, switched the hero image to meditation, moved gallery imagery into the Lifestyle section, and `npm run build` passed.
 - GitHub repository pushed: `https://github.com/Elitj06/he-performance`.
 - Vercel production deploy READY: `https://he-performance.vercel.app`.
 - Live route checks returned HTTP 200 for `/`, `/login`, `/app`, `/dashboard`, `/manifest.json` and `/sw.js`.
