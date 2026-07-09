@@ -49,8 +49,7 @@ export function Navbar() {
             target="_blank"
             rel="noreferrer"
           >
-            <span className="hidden sm:inline">Agendar</span>
-            <span className="sm:hidden">Agendar</span>
+            <span>Agendar</span>
             <ArrowRight size={16} />
           </a>
 

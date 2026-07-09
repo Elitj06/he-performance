@@ -55,7 +55,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  maximumScale: 1,
+  maximumScale: 5,
   viewportFit: "cover",
   themeColor: "#07111f",
 };
@@ -70,8 +70,30 @@ export default function RootLayout({
       lang="pt-BR"
       className={`${geistSans.variable} ${geistMono.variable} h-full scroll-smooth antialiased`}
     >
-      <body className="min-h-full bg-obsidian text-ivory">{children}</body>
-      <Script src="/sw-register.js" strategy="afterInteractive" />
+      <body className="min-h-full bg-obsidian text-ivory">
+        {children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "MedicalClinic",
+              name: "Clínica HE Performance",
+              description: "Saúde, metabologia e performance no Rio de Janeiro.",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "Av. Evandro Lins e Silva, 840",
+                addressLocality: "Barra da Tijuca, Rio de Janeiro",
+                addressRegion: "RJ",
+                addressCountry: "BR",
+              },
+              telephone: "+5521984606091",
+              url: "https://he-performance.vercel.app",
+            }),
+          }}
+        />
+        <Script src="/sw-register.js" strategy="afterInteractive" />
+      </body>
     </html>
   );
 }

@@ -10,7 +10,7 @@ export function Testimonials() {
         <Reveal className="max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-[0.22em] text-gold">Depoimentos</p>
           <h2 className="mt-4 text-balance text-4xl font-semibold text-ivory sm:text-5xl">
-            Experiências que serão curadas pela equipe.
+            Experiências que inspiram a sua jornada.
           </h2>
         </Reveal>
 

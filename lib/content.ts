@@ -7,6 +7,7 @@ import {
   ClipboardCheck,
   Dumbbell,
   HeartPulse,
+  Instagram,
   MapPin,
   MessageCircle,
   Sparkles,
@@ -148,7 +149,7 @@ export const testimonials = [
 export const contactItems = [
   { label: "Endereço", value: clinic.address, icon: MapPin },
   { label: "WhatsApp", value: clinic.phone, icon: MessageCircle },
-  { label: "Instagram", value: clinic.instagram, icon: Activity },
+  { label: "Instagram", value: clinic.instagram, icon: Instagram },
 ];
 
 export const galleryImages = [
