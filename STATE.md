@@ -23,3 +23,11 @@
 
 - Replace generated SVG logo with official clinic asset if the clinic provides the source file.
 - Connect patient login and portal modules to the production backend when available.
+
+## 2026-07-10 — Plano Detalhado
+
+- Plano de 5 fases criado em `docs/PROJECT-PLAN.md`.
+- Fase 0 (Supabase + Auth) aguardando aprovação do Eliandro após apresentação ao Dr. João.
+- Lia (agente tec-saude) atualizada para coletar demandas do Dr. João via WhatsApp.
+- MVP total estimado: ~6.5 semanas de dev ativo.
+- MVP total estimado: ~6.5 semanas de dev ativo.
